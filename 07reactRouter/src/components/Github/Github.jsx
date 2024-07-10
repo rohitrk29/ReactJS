@@ -14,10 +14,10 @@ function Github() {
     //     console.log(data);
     //     setData(data);
     //   })
-    // }, [])
-    
+    // }, [])      
 
-  return (
+
+    return (
     <div className='text-center m-4 bg-gray-600 text-white p-4 text-3xl'>Github followers:{data.followers}
 
     <img src={data.avatar_url} alt="imgg" width={200}/>
